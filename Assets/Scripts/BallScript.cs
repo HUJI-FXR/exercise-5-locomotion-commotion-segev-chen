@@ -15,17 +15,12 @@ public class BallScript : MonoBehaviour
         }
     }
 
-    public void DestroyBallTemp()
+    public void HitBall()
     {
+        GameManagerScript.score++;
+        Debug.Log(GameManagerScript.score);
         Destroy(gameObject);
     }
-
-    //public void HitBall()
-    //{
-    //    GameManagerScript.score++;
-    //    Debug.Log(GameManagerScript.score);
-    //    Destroy(gameObject);
-    //}
 
 
 

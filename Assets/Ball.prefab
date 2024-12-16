@@ -170,7 +170,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 306253051673765270}
         m_TargetAssemblyTypeName: BallScript, Assembly-CSharp
-        m_MethodName: DestroyBallTemp
+        m_MethodName: HitBall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
